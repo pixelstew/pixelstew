@@ -1,0 +1,34 @@
+//COLOR ------------------------------
+
+$primary: #2C343B;
+$secondary: #52616D;
+$tertiary: #fff;
+$background: #E5E1D1;
+$cta: #EB4F48;
+
+
+
+
+//TEXT -------------------------------
+
+$font-stack: 'Roboto Slab', serif;
+$font-stack-body: helvetica, arial, sans-serif;
+
+//SMALL SCREEN SIZE TEXT VARIABLES
+
+$base-font-size: 1rem!important;
+$base-line-height: 1.375rem;
+
+$base-font-size-large: 1.1875rem!important;
+$base-line-height-large: 1.6875rem;
+
+//MIXIN TO CALCULATE TEXT SIZE AND LINE HEIGHTS (BASED ON GRIDLOVER TOOL)
+
+@mixin text-grid($size, $height, $multiplier){	
+	font-size: $size;
+  $line: $height;
+  $lines: $multiplier;
+  line-height: $line * $lines;
+  margin-top: 2 * $line;
+  margin-bottom: 1 * $line;
+}

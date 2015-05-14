@@ -1,0 +1,21 @@
+.site-nav{
+	width: 150px;
+	float: right;
+	margin-top: 0.8em;
+	clear: none;	
+	a{
+		color: $background;
+		&:hover{
+			color: $primary;
+		}
+	}
+	@media(min-width: 779px){
+		float: right;
+		clear: none;		
+		width: auto;
+		margin-top: 1.2em;
+		a{
+			
+		}
+	}	
+}

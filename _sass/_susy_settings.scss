@@ -1,0 +1,19 @@
+/* Changing Susy default global settings */
+$susy: (
+  /* Tells Susy to use 12 columns */
+  columns: 12,
+  gutters: .25,
+  gutter-position: outside,
+  /* Tells Susy that the container has a max-width of 1028px */
+  container: 50em,
+  /* Tells Susy to use border-box */
+  box-sizing: border-box,
+
+  //debug: (
+  //	image: show-columns,
+  //	color: rgba(239, 61, 61, 0.2),
+  //    toggle: top left,
+  // ),
+
+
+  );

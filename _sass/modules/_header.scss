@@ -1,0 +1,41 @@
+.site-header{
+	background: $secondary;
+	margin-bottom: 1em;
+	color: $background;
+}
+
+.logo{
+	max-width: 200px;
+  width: 100%;
+  float: left;
+  margin-bottom: 0.4em;
+  p{
+	display: none;
+  
+  
+  }
+	svg{
+		fill: $background;
+		stroke: $background;
+		max-width: 250px;
+  	width: 100%;
+  	margin: 0 auto;
+  	float: left;
+
+	}
+	@media(min-width: 779px){
+		float: left;
+		max-width: 580px;
+  	width: 100%;
+  	P{
+  		margin: 2.2em 0 1em;
+  		color: $background;
+  		font-size: 0.8em;
+  		display: block;
+  		text-align: right;
+
+
+  	}
+	}
+	
+}

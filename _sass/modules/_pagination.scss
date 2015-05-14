@@ -1,0 +1,12 @@
+.prev{
+	float: left;
+	width: 50%;
+}
+
+.next{
+	text-align: right;
+}
+
+.prev--disabled, .next--disabled{
+	color: #888;
+}

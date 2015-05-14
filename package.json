@@ -1,0 +1,21 @@
+{
+  "name": "pixelstew",
+  "version": "0.0.1",
+  "description": "Pixelstew - a blog about dev and design",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "^1.1.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-sass": "^0.18.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "R Gilbert",
+  "license": "ISC"
+}

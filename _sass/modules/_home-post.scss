@@ -1,0 +1,16 @@
+.post--home{
+	@extend .post;
+	cursor: pointer;
+	transition: 300ms;
+		&:hover{
+			box-shadow: 0 8px $primary;
+						
+		}
+		&:hover > h2{
+			transition: 300ms;
+			color: $cta;
+		}
+		&:focus{
+			box-shadow: none;
+		}
+}

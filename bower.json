@@ -1,0 +1,19 @@
+{
+  "name": "pixelstew",
+  "version": "0.0.1",
+  "authors": [
+    "Rob Gilbert"
+  ],
+  "description": "Pixelstew - a blog about dev and design",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.3"
+  }
+}

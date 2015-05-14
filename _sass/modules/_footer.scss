@@ -1,0 +1,70 @@
+.site-footer{
+	background: $secondary; 
+	margin-top: 2em;
+	
+	box-shadow: 0 1000px $secondary;
+	border-bottom: 1em solid $primary;
+	h2, p, a{
+		color: $background;
+	}
+	p{
+		font-size: 0.8em;
+		margin: 0;
+	}
+	a:hover{
+		color: $primary;
+	}
+	
+}
+
+.site-footer ul{
+	display: inline-block;
+	margin-left: 0;
+}
+
+.site-footer__icon{	
+	float: left;
+		svg{
+			width: 30px;
+			vertical-align: bottom;
+		}
+}
+
+.icon{
+	fill: $background;
+	transition: 300ms;
+	svg{
+		margin: 0 0.5em;
+		width: 30px;
+	}
+	 &:hover{
+	 	fill: $primary;
+	 }
+}
+
+.site-footer__email{
+	float: left;
+	margin-top: 0;
+
+	}
+
+.site-footer__logo{
+	@include span(6);
+	clear: both;
+	svg{
+		fill: $background;
+		stroke: $background;
+	}
+	
+	@media(min-width: 779px){
+		@include span(4 last);
+  	margin-top: -2.5em;
+  	clear: none;
+  	P{
+  		
+  		font-size: 0.8em;
+  		text-align: center;
+  	}
+	}
+	
+}
